@@ -1,0 +1,39 @@
+{
+  "name": "gtx-cache",
+  "version": "0.0.1",
+  "description": "the cache use as fast as GT car for browser, and prevent memory leak",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "doc",
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack",
+    "example": "http-server -p 8880"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtx-cache/gtx-cache.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gtx-cache/gtx-cache/issues"
+  },
+  "homepage": "https://github.com/gtx-cache/gtx-cache#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
+  }
+}
